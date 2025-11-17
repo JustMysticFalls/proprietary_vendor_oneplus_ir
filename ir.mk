@@ -5,7 +5,8 @@
 
 # Configs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/oplus-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/oplus-hiddenapi-package-allowlist.xml
+    $(LOCAL_PATH)/configs/oplus-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/oplus-hiddenapi-package-allowlist.xml \
+    $(LOCAL_PATH)/configs/preinstalled-packages-platform-oplus-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-oplus-product.xml
 
 # Inherit from ir-vendor.mk
 $(call inherit-product, vendor/oneplus/ir/ir-vendor.mk)
