@@ -1,0 +1,18 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+}
+
+android_app_import {
+    name: "ConsumerIRApp",
+    owner: "oneplus",
+    apk: "proprietary/product/app/ConsumerIRApp/ConsumerIRApp.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
